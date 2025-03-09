@@ -1,0 +1,39 @@
+body{
+    background-image: url('https://img.freepik.com/free-photo/door-leading-magical-world_23-2151038459.jpg?t=st=1741413280~exp=1741416880~hmac=d669516cd56ec8cfe5e4cddf66a0bd2bc66b7edd80cbb2fbb057fd044e8b9bcc&w=740');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+}
+#clock-container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#clock{
+    font-family: monospace;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 65px;
+    color: rgb(255, 255, 255);
+    /*color: rgba(255, 94, 0, 0.8);*/
+    backdrop-filter: contrast(20) sepia(15%);
+    width: 100%;
+}
+@media (min-width: 900px) {
+    body {
+        background-image: url('https://img.freepik.com/free-photo/door-leading-magical-world_23-2151038238.jpg?t=st=1741505061~exp=1741508661~hmac=981bc51f61a33cb3dfbba97e62974e014cdaa93a57786ca6f8ab67e8efa6089f&w=1380');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #clock {
+        color: rgba(255, 94, 0, 1);
+        backdrop-filter: contrast(50) sepia(75%);
+        font-size: 10rem;
+    }
+}
