@@ -32,6 +32,7 @@ button {
     border-radius: 5px;
     border: none;
     padding: 7px 6px;
+    transition: all 0.5s ease-in-out;
 }
 #increaseBtn {
     background-color: hsl(120, 100%, 66%);
