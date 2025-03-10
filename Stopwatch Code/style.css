@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgba(243, 243, 243, 0.895);
+}
+#container {
+    margin-top: 8em;
+    padding: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.951);
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3), 
+                -5px -5px 10px rgba(255, 255, 255, 0.8);
+}
+#container:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+#myh1 {
+    font-size: 3.5em;
+}
+#display {
+    font-family: monospace;
+    font-size: 5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+button {
+    font-size: 1.3em;
+    font-weight: bolder;
+    border-radius: 6px;
+    padding: 5px 6px;
+    margin: 5px;
+    min-width: 80px;
+}
+#startBtn {
+    background-color: hsl(120, 84%, 65%);
+}
+#startBtn:hover {
+    background-color: hsl(120, 84%, 45%);
+}
+#startBtn:active {
+    font-size: 1.1em;
+    background-color: hsl(120, 84%, 75%);
+}
+#resetBtn {
+    background-color: hsl(181, 84%, 65%);
+}
+#resetBtn:hover {
+    background-color: hsl(181, 84%, 45%);
+}
+#resetBtn:active {
+    font-size: 1.1em;
+    background-color: hsl(181, 84%, 75%);
+}
+#stopBtn {
+    background-color: hsl(0, 99%, 64%);
+}
+#stopBtn:hover {
+    background-color: hsl(0, 99%, 44%);
+}
+#stopBtn:active {
+    font-size: 1.1em;
+    background-color: hsl(0, 99%, 74%);
+}
