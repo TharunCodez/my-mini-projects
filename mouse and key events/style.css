@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+#myBox {
+    background-color: aqua;
+    padding-top: 25px;
+    width: 200px;
+    height: 200px;
+    font-size: 7.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
